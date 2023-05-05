@@ -25,4 +25,18 @@ header {
   img {
     height: 50px;
   }
+
+  .darkLinks {
+    a {
+      color: black;
+    }
+    &:hover {
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+.headerDark {
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
